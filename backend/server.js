@@ -24,8 +24,17 @@ app.use(
 
 //!Routing
 //?Főoldal:
-router.get('/', (request, response) => {
+router.get('/index.html', (request, response) => {
     response.sendFile(path.join(__dirname, '../frontend/html/index.html'));
+});
+
+
+router.get('/jatek.html', (request, response) => {
+    response.sendFile(path.join(__dirname, '../frontend/html/jatek.html'));
+});
+
+router.get('/szokezelo.html', (request, response) => {
+    response.sendFile(path.join(__dirname, '../frontend/html/szokezelo.html'));
 });
 
 //!API endpoints
