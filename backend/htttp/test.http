@@ -1,0 +1,18 @@
+###
+POST http://http://127.0.0.1:3000/api/szavak
+Content-Type: application/json
+
+{
+    "szavak": "alma"
+}
+
+###
+GET http://127.0.0.1:3000/api/ujJatek
+
+###
+POST http://127.0.0.1:3000/api/tipp
+Content-Type: application/json
+
+{
+    "betu": "a"
+}
